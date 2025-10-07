@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulačka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Kalkulačka</h1>
+        <input type="text" id="num1" placeholder="První číslo">
+        <input type="text" id="num2" placeholder="Druhé číslo">
+        <div id="error" aria-live="polite" style="color:#c00; min-height:1.2em;"></div>
+        <div class="buttons">
+            <button id="btnAdd" type="button">Sčítání</button>
+            <button id="btnSub" type="button">Odčítání</button>
+            <button id="btnMul" type="button">Násobení</button>
+            <button id="btnDiv" type="button">Dělení</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
